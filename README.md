@@ -2,7 +2,7 @@ Zilla
 
 INTEGRANTES:
 
-Jhonattas Ferreira(jfs4) - Desenvolvedor/Lider
+Jhonattas Ferreira(jfs4) - Desenvolvedor/Líder
 
 Matheus Marconi(mmfr) - Desenvolvedor
 
@@ -12,5 +12,5 @@ Um dos principais problemas que o Restaurante Universitário(UFPE) enfrenta é o
 
 OBJETIVO:
 
-O projeto tem como objetivo a criação de um aplicação que automatize a compra de vale refeiçoes do Restaurante universitario da Universidade Federal de Pernambuco.
+O projeto tem como objetivo a criação de um aplicação que automatize a compra de vale refeições do Restaurante Universitário da Universidade Federal de Pernambuco.
 O aluno poderá comprar seu ticket, antecipadamente, via internet através de uma aplicação SaaS, acelerando assim a compra e, consequentemente, diminuindo o tamanho da fila do R.U(UFPE).
