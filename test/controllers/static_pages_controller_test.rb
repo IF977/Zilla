@@ -5,5 +5,6 @@ class StaticPagesControllerTest < ActionController::TestCase
     get :home
     assert_response :success
   end
+  
 
 end
