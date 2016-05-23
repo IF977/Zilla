@@ -1,18 +1,35 @@
 <ul class="nav navbar-nav navbar-right">
-    <li><%= link_to "Comprar Ticket", "#" %></li>
-    <li><%= link_to "Histórico de Compra", "#" %></li>
+    <li><%= link_to "Comprar Ticket", buy_path %></li>
+    <li><%= link_to "Histórico de Compra", historic_path %></li>
     <li><%= link_to "Cardápio Semanal", "https://goo.gl/gwQhbs" %></li>
 </ul>
   
 <h2>Olá <%= @user.name %></h2>
 
-<h1 class= "center">Tickets Disponíveis</h1>
-<div class = "center jumbotron">
-    <ul class="nav">
-        <li>Desejum: </li>
-        <li>Almoço: </li>
-        <li>Jantar: </li>
-    </ul>
+<div class="container">
+  <h2 class="center">Tickets Disponíveis</h2>
+  <table class="table table-condensed">
+    <thead>
+      <tr>
+        <th>Tipo de Refeição</th>
+        <th>Quantidade</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Desejum</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Almoço</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Jantar</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
 </div>
 
 

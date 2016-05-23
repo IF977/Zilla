@@ -1,0 +1,22 @@
+<ul class="nav navbar-nav navbar-right">
+    <li><%= link_to "Perfil", current_user %></li>
+    <li><%= link_to "Histórico de Compra", historic_path %></li>
+    <li><%= link_to "Cardápio Semanal", "https://goo.gl/gwQhbs" %></li>
+</ul>
+
+
+<h1 class= "center">Comprar ticket</h1>
+<div class="form-group">
+  <label for="sel1">Tipo de Refeição</label>
+  <select class="form-control" id="sel1">
+    <option>Desejum</option>
+    <option>Almoço</option>
+    <option>Jantar</option>
+  </select>
+</div>
+<%= link_to "Comprar", "#", class: "btn btn-lg btn-success" %>
+
+
+          
+       
+ 

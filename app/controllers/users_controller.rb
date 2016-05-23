@@ -17,6 +17,12 @@ class UsersController < ApplicationController
           render 'new'
         end
     end
+    
+    def buy
+    end
+    
+    def historic
+    end
 
   private
 
