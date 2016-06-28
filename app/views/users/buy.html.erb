@@ -4,17 +4,24 @@
     <li><%= link_to "Cardápio Semanal", "https://goo.gl/gwQhbs" %></li>
 </ul>
 
+<script type="text/javascript">
+  function comprando(form){
+    var a = "";
+    a = document.getElementsByName("tipo").value;
+    alert("Você comprou um ticket");
+  }
+</script>
 
 <h1 class= "center">Comprar ticket</h1>
 <div class="form-group">
-  <label for="sel1">Tipo de Refeição</label>
-  <select class="form-control" id="sel1">
-    <option>Desejum</option>
-    <option>Almoço</option>
-    <option>Jantar</option>
-  </select>
+  <form>
+    <input type="radio" name="tipo" value="desejum" > Desejum<br>
+    <input type="radio" name="tipo" value="almoco"> Almoço<br>
+    <input type="radio" name="tipo" value="jantar"> Jantar<br>
+    <input class = "btn btn-lg btn-success" type="button" value="comprar" onClick="comprando(this.form);">
+    </form>
 </div>
-<%= link_to "Comprar", "#", class: "btn btn-lg btn-success" %>
+
 
 
           
