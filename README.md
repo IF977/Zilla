@@ -14,3 +14,5 @@ OBJETIVO:
 
 O projeto tem como objetivo a criação de um aplicação que automatize a compra de vale refeições do Restaurante Universitário da Universidade Federal de Pernambuco.
 O aluno poderá comprar seu ticket, antecipadamente, via internet através de uma aplicação SaaS, acelerando assim a compra e, consequentemente, diminuindo o tamanho da fila do R.U(UFPE).
+
+ScreenCast da Aplicação: https://youtu.be/CYlj-fTdW_M
